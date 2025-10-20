@@ -3,4 +3,90 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+    color: white;
+}
+
+body {
+    background-color: rgb(50, 50, 44);
+}
+
+.main-div {
+    width: 30em;
+    height: 40em;
+    background: linear-gradient(90deg, aqua, blue);
+    margin: 0 auto;
+    margin-top: 2em;
+    border-radius: 20px;
+}
+
+.top-section {
+    border-radius: 20px;
+}
+
+.top-section h2 {
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 1.2em;
+    padding-bottom: 1em;
+    font-family: Helvetica;
+}
+
+.top-section input {
+    background-color: white;
+    font-family: inherit;
+    border: none;
+    outline: none;
+    padding: 0.6em 2em;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: large;
+    font-style: italic;
+    margin-left: 4.5em;
+    color: black;
+}
+
+.top-section img {
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    padding-top: 0.5em;
+    padding-right: 0.3em;
+    padding-left: 0.3em;
+    margin-bottom: -1em;
+}
+
+.top-section button {
+    background-color: transparent;
+    border: none;
+}
+
+.temperature-div {
+    text-align: center;
+}
+
+.temperature-div h1 {
+    margin-top: -0.5em;
+    font-size: 3.5rem;
+}
+
+.temperature-div h2 {
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+.humidity-wind {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6em;
+}
+
+.humidity-wind img {
+    height: 55px;
+    margin-right: 20px;
+}
+
+.humidity, .speed {
+    display: flex;
+    line-height: 30px;
 }
