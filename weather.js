@@ -26,7 +26,7 @@ async function checkWeather(city){
         resetToDefault();
         return; 
     }
-    
+
     var data = await response.json()
 
     document.querySelector(".city").innerHTML = data.name;
@@ -55,4 +55,6 @@ async function checkWeather(city){
 btn.addEventListener("click", ()=> {
     checkWeather(cityValue.value)
 })
+
+
 
