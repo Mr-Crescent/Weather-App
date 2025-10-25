@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <meta name="viewport" content="width=, initial-scale=1.0">
     <meta name="author" content="Meshak Ekai">
     <meta name="date" content="20/10/2025">
     <meta name="description" content="This is a simple Weather App">
@@ -14,15 +14,15 @@
     <div class="main-div">
         <div class="top-section">
             <h2>Weather App</h2>
-            <input type="text" placeholder="enter city name">
-            <button><img src="./images/search.png" alt="search-button"></button>
+            <input type="text" class="city-name" placeholder="enter city name" spellcheck="false">
+            <button class="searchBtn"><img src="./images/search.png" alt="search-button"></button>
         </div>
 
         <div class="down-section">
             <div class="temperature-div">
                 <img src="./images/clouds.png" alt="weather-image" class="main-img">
-                <h1>0°c</h1>
-                <h2>City Name</h2>
+                <h1 class="temp">0°c</h1>
+                <h2 class="city">City Name</h2>
             </div>
 
             <div class="humidity-wind">
@@ -31,7 +31,7 @@
                         <img src="./images/humidity.png" alt="humidity-img">
                     </div>
                     <div>
-                        <h3>0 %</h3>
+                        <h3 class="humidity-value">0 %</h3>
                         <h4>Humidity</h4>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                         <img src="./images/icons8-wind-50.png" alt="windspeed-img">
                     </div>
                     <div>
-                        <h3> 0 km/h</h3>
+                        <h3 class="speed-value"> 0 km/h</h3>
                         <h4>Wind Speed</h4>
                     </div>
                 </div>
